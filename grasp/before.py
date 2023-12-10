@@ -50,3 +50,14 @@ class Application:
 
 app = Application()
 app.register_vehicle("BMW 5")
+
+# split
+# 'ala ma kota'.split(sep=' ')  # sep = ' ' - separator
+# ['ala', 'ma', 'kota']
+
+# join
+# ' '.join(['ala', 'ma', 'kota'])  # glue = ' '
+# 'ala ma kota'
+
+# w innych językach raczej tak
+# ['ala', 'ma', 'kota'].join(glue=" ")  -> 'ala ma kota'
